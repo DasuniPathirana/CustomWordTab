@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab id="TextToolsTab" label="Text Tools">
+        <group id="TextInsertGroup" label="Insert Text">
+          <button id="btnToggleTaskPane"
+                  label="Task Pane"
+                  screentip="Toggle Task Pane"
+                  supertip="Show or hide the text insert task pane."
+                  imageMso="TaskPaneAppParts"
+                  size="large"
+                  onAction="OnToggleTaskPane" />
+          <button id="btnOpenDialog"
+                  label="Insert Heading"
+                  screentip="Open Insert Dialog"
+                  supertip="Open a dialog to insert text with Heading 1 style."
+                  imageMso="TextBoxInsert"
+                  size="large"
+                  onAction="OnOpenDialog" />
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
