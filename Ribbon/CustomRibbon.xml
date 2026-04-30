@@ -8,7 +8,7 @@
                   label="Task Pane"
                   screentip="Toggle Task Pane"
                   supertip="Show or hide the text insert task pane."
-                  imageMso="TaskPaneAppParts"
+                  getImage="GetTaskPaneImage"
                   size="large"
                   onAction="OnToggleTaskPane" />
           <button id="btnOpenDialog"
